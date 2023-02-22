@@ -1,0 +1,46 @@
+/*######################################
+                GENERAL
+######################################*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+:root {
+    --font-main: roboto;
+    --font-hl-color: #000;
+    --font-main-color: #0b0c17;
+    --font-chapter-color: #ddd;
+    --background-color: #fff;
+}
+
+body {
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+
+/*######################################
+                HEADER
+######################################*/
+
+
+
+
+/*######################################
+                MAIN
+######################################*/
+
+
+
+
+/*######################################
+                FOOTER
+######################################*/
