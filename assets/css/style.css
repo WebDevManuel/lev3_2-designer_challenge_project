@@ -238,3 +238,60 @@ body {
 .footer__img {
     width: 2.5%;
 }
+
+/*######################################
+                RESPONISIVE
+######################################*/
+@media only screen and (max-width: 600px) {
+    .header {
+        background-size: 60%;
+    }
+
+    .eye-catcher {
+        padding: 0 0 0;
+        margin: 10vh 0 0 3%;
+    }
+
+    .request-accent {
+        padding: 0 0 10vh 35%;
+    }
+
+    .article {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article > h2{
+        padding: 0 0 3vh;
+    }
+
+    .article__only_hl {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .tile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .tile__item__cont {
+        margin: 0 0 0;
+    }
+
+    .mirror {
+        align-items: center;
+        text-align: center;
+    }
+
+    .mirror:nth-of-type(even) {
+        flex-direction: column;
+    }
+
+    .mirror:nth-of-type(odd) {
+        flex-direction: column-reverse;
+    }
+
+}
