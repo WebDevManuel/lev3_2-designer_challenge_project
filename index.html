@@ -150,16 +150,23 @@
             </div>
         </section>
         <section>
-            <article class="hl-centered">
+            <article class="hl-centered subscribe">
                 <h2>Do you like this challenge?</h2>
                 <p>Subscribe to be the first to hear about updates, tips and recommendations!</p>
                 <div class="input-group">
-                    <form onclick="return false" action="">
+                    <form onclick="return false" action="subscribe.html" method="post">
                         <input class="input-group__input" type="email" placeholder="Write your email here" name=""
-                            id="">
-                        <button class="input-group__btn" onclick="bla()">Subscribe</button>
+                            id="email">
+                        <button class="input-group__btn" onclick="hide()">Subscribe</button>
                     </form>
                 </div>
+            </article>
+            <article class="input-group input-group__input subscribed hide">
+                <h2>YOUR EMAIL HAS BEEN CONFIRMED.</h2>
+                <h2>GIVE TANKS FOR LIVING!</h2>
+                <h3>Now we just need to confirm your email address - please click the link in the email we sent to you.
+                    Thanks!</h3>
+                <button class="input-group__btn subscribed__btn" onclick="show()">Back To Reality</button>
             </article>
         </section>
     </main>
@@ -168,6 +175,6 @@
                 alt="icon_heart"></p>
     </footer>
 </body>
-<!-- <script src="./assets/js/main.js"></script> -->
+<script src="./assets/js/main.js"></script>
 
 </html>

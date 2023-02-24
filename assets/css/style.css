@@ -239,6 +239,18 @@ body {
     width: 2.5%;
 }
 
+.hide {
+    display: none;
+}
+
+.subscribed {
+    padding: 10vh 0;
+}
+
+.subscribed__btn {
+    background-color: indigo;
+}
+
 /*######################################
                 RESPONISIVE
 ######################################*/
@@ -261,7 +273,7 @@ body {
         align-items: center;
     }
 
-    .article > h2{
+    .article>h2 {
         padding: 0 0 3vh;
     }
 
